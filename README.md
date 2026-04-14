@@ -14,7 +14,7 @@ Unlike standard tutorials, these modules emphasize system-level details: vectori
 
 ## Study Modules
 
-*Note: Modules 3, 4, and 5 are currently being updated for the latest semester.*
+*Note: Modules 3, 4, 5, and 6 are currently being updated for the latest semester.*
 
 | Module | Topic | Status | Key Contents |
 | :--- | :--- | :---: | :--- |
@@ -23,6 +23,7 @@ Unlike standard tutorials, these modules emphasize system-level details: vectori
 | **Module 3** | **Equation Optimization** | 🔄 | Broadcasting/masking, numerical stability (`logsumexp`), and `torch.compile`. |
 | **Module 4** | **Distributed Training** | 🔄 | DDP (DistributedDataParallel) workflows and `torchrun` simulations. |
 | **Module 5** | **Layer Architectures** | 🔄 | Manual implementation of Norm layers and building Transformer blocks. |
+| **Module 6** | **Optimizers** | 🔄 | Analysis of optimization algorithms (SGD, Adam, AdamW) and LR scheduling. |
 
 ## Target Audience
 
@@ -32,8 +33,8 @@ These materials are intended for students and researchers who have a basic under
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/TSI-yoontae/pnu_lectrue_data_programming.git
-cd pnu_lectrue_data_programming
+git clone https://github.com/TSI-yoontae/pnu_study.git
+cd pnu_study
 ```
 
 ### 2. Set up the environment

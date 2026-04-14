@@ -1,4 +1,4 @@
-# Data Programming: PyTorch Study Materials
+# Data Programming: PyTorch & Convex Optimization Study Materials
 
 Created by **Prof. Yoontae Hwang** (Pusan National University)
 
@@ -8,11 +8,15 @@ Created by **Prof. Yoontae Hwang** (Pusan National University)
 
 ## Overview
 
-This repository contains study materials and hands-on Jupyter notebooks for students learning PyTorch. The curriculum focuses on writing efficient, optimized, and scalable deep learning code suitable for both research and production environments.
+This repository contains study materials and hands-on Jupyter notebooks for students learning PyTorch and Mathematical Optimization. The curriculum focuses on writing efficient, optimized, and scalable code suitable for both research and production environments.
 
-Unlike standard tutorials, these modules emphasize system-level details: vectorizing tensor operations, designing distributed training workflows, and implementing core architectural components from the ground up.
+The repository is divided into two independent tracks:
+1. **PyTorch Track**: Focuses on system-level deep learning details, from vectorizing tensor operations to designing distributed training workflows.
+2. **Convex Optimization Track**: A standalone mathematical optimization course covering theoretical foundations, advanced practical examples, and first-order optimization methods.
 
-## Study Modules
+---
+
+## Track 1: PyTorch Study Modules
 
 *Note: Modules 3, 4, 5, and 6 are currently being updated for the latest semester.*
 
@@ -25,32 +29,32 @@ Unlike standard tutorials, these modules emphasize system-level details: vectori
 | **Module 5** | **Layer Architectures** | 🔄 | Manual implementation of Norm layers and building Transformer blocks. |
 | **Module 6** | **Optimizers** | 🔄 | Analysis of optimization algorithms (SGD, Adam, AdamW) and LR scheduling. |
 
+---
+
+## Track 2: Convex Optimization (Independent Track)
+
+*This track is designed to be self-contained and provides comprehensive code examples for mathematical optimization.*
+
+| Module | Topic | Key Contents |
+| :--- | :--- | :--- |
+| **Module 1** | **Convex Function** | Definitions, properties, and basic code implementations of convex functions. |
+| **Module 2-1** | **Opt. Examples I** | LP (Linear), QP (Quadratic), SDP (Semidefinite), and Robust optimization. |
+| **Module 2-2** | **Opt. Examples II** | Portfolio Optimization, Optimal Control, and Logistic Regression. |
+| **Module 2-3** | **Opt. Examples III** | Lagrange Duality and theoretical foundations. |
+| **Module 3-1** | **First-Order Methods I** | Steepest Descent, Learning Rate Analysis. |
+| **Module 3-2** | **First-Order Methods II** | Optimization trajectory and loss landscape Visualization. |
+| **Module 3-3** | **First-Order Methods III** | Optimizer Comparison across different objective functions. |
+| **Module 3-4** | **Advanced Methods** | Proximal Gradient, Projected Gradient, Frank-Wolfe, Coordinate Descent. |
+
+---
+
 ## Target Audience
 
-These materials are intended for students and researchers who have a basic understanding of PyTorch (`Tensor`, `nn.Module`, basic training loops) but want to master high-performance programming and the underlying mechanics of modern AI models.
+These materials are intended for students and researchers who have a basic understanding of Python and PyTorch (`Tensor`, `nn.Module`, basic training loops) but want to master high-performance programming, modern AI architectures, and the underlying mathematical mechanics of optimization.
 
 ## Getting Started
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/TSI-yoontae/pnu_study.git
+git clone [https://github.com/TSI-yoontae/pnu_study.git](https://github.com/TSI-yoontae/pnu_study.git)
 cd pnu_study
-```
-
-### 2. Set up the environment
-Python 3.10 or higher and the latest version of PyTorch 2.x are recommended.
-```bash
-pip install torch torchvision torchaudio numpy pandas matplotlib jupyter
-```
-
-### 3. Run the notebooks
-```bash
-jupyter notebook
-```
-Modules should be completed sequentially to build a solid foundation.
-
-## License
-
-This project is licensed under the MIT License. 
-
----
